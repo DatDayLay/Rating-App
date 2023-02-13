@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allerta+Stencil&family=Anton&family=Big+Shoulders+Stencil+Display:wght@100&family=Big+Shoulders+Stencil+Text:wght@100&family=Big+Shoulders+Text:wght@100&family=Elsie+Swash+Caps&family=Gugi&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Monoton&family=Overpass:wght@400;700&family=Plaster&family=Rubik+Glitch&family=Supermercado+One&family=Tourney&family=Train+One&family=Wallpoet&display=swap");
+* {
+  background-color: hsl(216, 12%, 8%);
+  box-sizing: border-box;
+  margin: none;
+  font-family: "Overpass", sans-serif;
+}
+
+.main-div {
+  background-color: hsl(213, 19%, 18%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+  width: 400px;
+  /* display: flex;
+  flex-direction: column; */
+  /* text-align: center; */
+  height: fit-content;
+  border-radius: 20px;
+  /* display: none; */
+}
+
+.star {
+  background-color: hsl(213, 19%, 18%);
+  width: 40px;
+  height: 40px;
+
+  padding-left: 2.8%;
+  padding-top: 2.8%;
+  margin-left: 5%;
+  margin-top: 5%;
+  /* border: 2px solid black; */
+  border-radius: 50px;
+  border: 1px solid hsl(210, 19%, 15%);
+}
+.section {
+  background-color: transparent;
+  padding-left: 2%;
+  text-align: left;
+  margin-top: 2%;
+}
+.h1 {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 19%, 18%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  padding-left: 2%;
+}
+
+.p {
+  background-color: hsl(213, 19%, 18%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 10%;
+  padding-left: 2%;
+}
+.ul {
+  background: none;
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+.list {
+  background-color: hsl(213, 19%, 18%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 5%;
+  margin-right: 10%;
+  margin-left: -2%;
+  color: hsl(216, 12%, 54%);
+  border: 1px solid hsl(216, 12%, 54%);
+  cursor: pointer;
+}
+.list:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+.list1 {
+  margin-left: -10%;
+}
+.list5 {
+  margin-right: 1%;
+}
+
+.submit {
+  text-align: center;
+  width: 90%;
+  height: 6vh;
+  background-color: hsl(25, 97%, 53%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  margin-left: 5%;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: 5%;
+}
+.submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.clicked {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.Thank-you {
+  background-color: hsl(213, 19%, 18%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+  width: 400px;
+  /* display: flex;
+  flex-direction: column; */
+  /* text-align: center; */
+  height: 60vh;
+  border-radius: 20px;
+  text-align: center;
+}
+.phone {
+  background-color: transparent;
+  margin-top: 10%;
+}
+.selection {
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  height: 7%;
+  padding-top: 1%;
+  background-color: hsl(213, 20%, 24%);
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+.thanks {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 19%, 18%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+.appreciate {
+  background-color: hsl(213, 19%, 18%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+
+.hidden {
+  display: none;
+}
